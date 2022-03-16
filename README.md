@@ -1,6 +1,5 @@
-# Shell Script Practice by MySelf
+## Know Your Environment
 
----
 Kernel ?
 - An intermediate program
 - Interface between hardware & software
@@ -22,4 +21,9 @@ Shell Types ?
     - ksh (korn shell - solaris)
 
 Shell Scripting ?
-- put all instructions in a specific file & RUN it on Shell. Give file extension as `.sh`
+- Put all instructions in a specific file & RUN it on Shell
+- Give file extension as `.sh` (not mandatory)
+
+Run a Shell Script ?
+- Absolute path (example - `/home/student/scripts/testing.sh`)
+- Reletive path (example - `./testing.sh`, when are already present at scripts directory)
