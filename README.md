@@ -26,4 +26,4 @@ Shell Scripting ?
 
 Run a Shell Script ?
 - Absolute path (example - `/home/student/scripts/testing.sh`)
-- Reletive path (example - `./testing.sh`, when are already present at scripts directory)
+- Reletive path (example - `./testing.sh`, when are already present at `/home/student/scripts` directory)
