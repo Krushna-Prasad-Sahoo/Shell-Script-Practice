@@ -20,3 +20,6 @@ Shell Types ?
     - bash (bourne again shell) 
     - csh & tcsh
     - ksh (korn shell - solaris)
+
+Shell Scripting ?
+- put all instructions in a specific file & RUN it on Shell. Give file extension as `.sh`
