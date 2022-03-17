@@ -27,3 +27,7 @@ Shell Scripting ?
 Run a Shell Script ?
 - Absolute path (example - `/home/student/scripts/testing.sh`)
 - Reletive path (example - `./testing.sh`, when you are already present at `/home/student/scripts/` directory)
+
+### Scripting Best Practices
+
+- Script is executed in a sequence.
