@@ -29,5 +29,16 @@ Run a Shell Script ?
 - Reletive path (example - `./testing.sh`, when you are already present at `/home/student/scripts/` directory)
 
 ### Scripting Best Practices
-
+- Script File Convention :
+	- make a work directory & keep scripts in it.
+	- script name should identify function/operation
+	- extension can be given as .bash/.csh/.ksh if working in multiple shells.
+- Script File Permission :
+	- chmod a+x name (make executable)
+- Shell Script Format : 
+	- Define Shell (#!/bin/bash)
+	- Comments (# comments)
+	- Define Variables
+	- Commands
+	- Statements (include indentation)
 - Script is executed in a sequence.
