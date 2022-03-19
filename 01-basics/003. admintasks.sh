@@ -7,7 +7,7 @@
 echo
 echo This script will run basic admin commands .
 echo
-top
+top | head -15
 echo
 df -h
 echo
