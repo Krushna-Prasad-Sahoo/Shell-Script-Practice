@@ -8,4 +8,4 @@ echo Hello, I am KP
 echo
 echo What is your name ?
 read n
-echo Hello $n, have a nide day !!
+echo Hello $n, have a nice day !!
