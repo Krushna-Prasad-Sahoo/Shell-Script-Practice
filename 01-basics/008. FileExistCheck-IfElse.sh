@@ -9,5 +9,5 @@ if [ -e index.html ]
 	then
 	echo "File Exists"
 	else
-	echo "FIle does not exist"
+	echo "File does not exist"
 fi
