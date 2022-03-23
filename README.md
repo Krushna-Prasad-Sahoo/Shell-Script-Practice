@@ -44,6 +44,7 @@ Run a Shell Script ?
 - Script is executed in a sequence.
 
 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Krushna-Prasad-Sahoo/Shell-Script-Practice?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Krushna-Prasad-Sahoo/Shell-Script-Practice?style=for-the-badge)
 
 
