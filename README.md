@@ -42,3 +42,8 @@ Run a Shell Script ?
 	- Commands
 	- Statements (include indentation)
 - Script is executed in a sequence.
+
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Krushna-Prasad-Sahoo/Shell-Script-Practice?style=for-the-badge)
+
+
