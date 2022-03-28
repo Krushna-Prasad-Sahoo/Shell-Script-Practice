@@ -42,6 +42,9 @@ Run a Shell Script ?
 	- Commands
 	- Statements (include indentation)
 - Script is executed in a sequence.
+- Add Exit/Status Code in your code :
+	- If code is `0` : Code executed successfully
+	- Else if code is `1-255` : Code execution was not successful.
 
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Krushna-Prasad-Sahoo/Shell-Script-Practice?style=for-the-badge)
