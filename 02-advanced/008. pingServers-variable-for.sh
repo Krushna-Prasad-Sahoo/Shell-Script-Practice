@@ -3,6 +3,7 @@
 # Date created : 31/03/2022
 # Description : 
 # Date modified : 31/03/2022
+# The file /home/student/myhosts contains a list of IPs
 
 hosts="/home/student/myhosts"
 
