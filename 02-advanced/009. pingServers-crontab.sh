@@ -1,6 +1,6 @@
 # Author : Krushna
 # Date Created : 01/04/2022
-# Description : 
+# Description : using crontab file automating the status check of the servers
 # Date Modified : 01/04/2022
 
 
