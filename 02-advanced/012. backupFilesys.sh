@@ -7,3 +7,15 @@
 tar cvf  /tmp/backup.tar  /etc  /var
 
 gzip /tmp/backup.tar
+
+find  /tmp/backup.tar.gz -mtime -1 -type f -print &> /dev/null
+
+if  [ $? -eq 0 ]
+then
+	echo Backup was created
+	echo
+	echo Archiving Backup
+	scp /tmp/backup.tar.gz  root@192.168.1.2:/var
+else
+	echo Backup Failed
+fi
