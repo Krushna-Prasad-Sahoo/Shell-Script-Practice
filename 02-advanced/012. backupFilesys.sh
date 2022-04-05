@@ -1,7 +1,7 @@
 #!/bin/bash
 # Author : Krushna
 # Date Created : 05/04/2022
-# Description :
+# Description : Taking backup of /etc & /var, compressing & finally archiving them in another location
 # Date Modified : 05/04/2022
 
 tar cvf  /tmp/backup.tar  /etc  /var
