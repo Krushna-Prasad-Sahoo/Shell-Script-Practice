@@ -4,6 +4,11 @@
 # Description : 
 # Date Modified : 
 
+total=`ls -l kp* | wc -l`
+
+echo It will take $total seconds to assign permissions ...
+echo
+
 for i in kp.*
 do
 	echo Assigning write permissions to $i
