@@ -1,0 +1,63 @@
+=> check current logged in user
+
+# whoami
+
+=> install kvm, libvirt, driver and configure
+
+# dnf install libvirt qemu-kvm  -y  >  /dev/null
+
+# usermod -aG libvirt $(whoami)
+
+# newgrp libvirt
+
+# curl -L https://github.com/dhiltgen/docker-machine-kvm/releases/download/v0.10.0/docker-machine-driver-kvm-centos7 -o /usr/local/bin/docker-machine-driver-kvm
+
+# chmod +x /usr/local/bin/docker-machine-driver-kvm
+
+# systemctl is-active libvirtd
+
+# systemctl start libvirtd
+
+# virsh net-list --all
+
+=> download minishift package & unzip
+
+# curl -L https://github.com/minishift/minishift/releases/download/v1.33.0/minishift-1.33.0-linux-amd64.tgz -o minishift.tar.gz
+
+# tar -xvzf minishift.tar.gz
+
+# cd minishift-1.33.0-linux-amd64/
+
+=> start minishift
+
+# ./minishift start  --network-nameserver 8.8.8.8
+
+=> configure oc CLI
+
+# eval  $(./minishift oc-env)
+
+# oc  --help
+
+=> download oc CLI manually
+
+# wget https://mirror.openshift.com/pub/openshift-v4/clients/oc/latest/linux/oc.tar.gz
+
+# tar -xvzf oc.tar.gz
+
+# ./oc --help
+
+=> check minishift cluster status
+
+# ./minishift status
+
+=> Go to web console
+
+# ./minishift console
+
+=> Stop minishift cluster
+
+# ./minishift stop
+
+=> check more commands
+
+# ./minishift --help
