@@ -41,7 +41,7 @@ Run a Shell Script ?
 	- Define Variables
 	- Commands
 	- Statements (include indentation)
-- Script is executed in a sequence.
+- Script is executed from top to bottom in sequence.
 - Add Exit/Status Code in your code :
 	- If code is `0` : Code executed successfully
 	- Else if code is `1-255` : Code execution was not successful.
